@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="338dp"
+        android:layout_height="559dp"
+        android:fontFamily="sans-serif-medium"
+        android:text=" \n Hello World! Welcome to Heart Rate Cam. This app makes it possible to monitor your heart rate by filming your forehead. This is how you use the app to get an optimal reading: \n \n
+
+- Place the phone on a stable surface \n \n
+
+- Make sure the you have good lighting, preferably in front of a window \n \n
+
+- Press Start in the opening screen \n \n
+
+- Seat yourself so that the center of your forehead is within the white rectangle in the video preview \n \n
+
+- Press Start and sit as still as possible \n \n
+
+- A countdwon will start on the screen and a new heart rate reading will be shown every 10 seconds \n \n
+
+- Press Stop to finish"
+
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.61" />
+</android.support.constraint.ConstraintLayout>
